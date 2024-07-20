@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="62.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Home | Vetsark</title>
+    <style>
+       
+       a:link {
+  color: rgb(12, 129, 28);
+  background-color: transparent;
+  text-decoration: underline;
+}
+       a:visited {
+    color: rgb(5, 100, 17);
+    background-color: none;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(78, 48, 4);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(58, 4, 121);
+    background-color: transparent;
+    text-decoration: none;
+  }    
+  
+  ul{
+    text-align: center;
+    margin-left: 700px;
+  }
+ img{
+    margin-bottom: 1px;
+    width: 70%;
+    margin-left: 30px;
+ }
+nav ul{
+    list-style: none;
+
+    padding: 30px 20px;
+    
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+div {
+    position:absolute;
+}
+body{
+    background-color: silver;
+}
+
+        form {
+            
+            border: none;
+            border-radius: 4px;
+            margin-right: 500px;
+            padding: 15px 15px;
+            background-color: rgba(169, 230, 89, 0.5);
+            font-family: cambria;
+            font-size: 18px;
+        }
+        input{
+            padding: 10px 10px;
+            width:300px;
+            height: 30px;
+            border-radius:5px ;
+            border-bottom: 1px solid green ;
+            border-top: none;
+            background-color: rgb(192, 190, 179);
+        }
+        button{
+            padding:15px 15px; 
+            font-weight: bold;
+            background-color: green; 
+            border: none; 
+            border-radius: 10px;
+            color: white;
+            width: 200px;
+        }
+        h1{
+           font-family: cambria; 
+           color: green;
+        }
+        #screenshot{
+    position:absolute;
+    top: 90px;
+    left:800px;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="62.png" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <div id="screenshot">
+        <img src="1.png" alt="Vetsark_Finance Credit-Img" style="width: 90%;">
+    </div>
+    <section>
+        <!-- Forms -->
+    <h1>Contact Us</h1>
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Surname">
+        <input type="text" placeholder="Last Name"><br><br>
+         <label for="">Email</label>
+        <input type="email" required placeholder="eg. @gmail"><br><br>
+        <span>Phone</span><input type="tel" placeholder="WhatsApp Number"><br><br>
+        <label for="">Date of Birth</label>
+        <input type="date"><br><br>
+        <label>National Identification</label><input type="password"><br><br>
+        <label>Male</label><input type="radio" name="war" value="MALE" >
+        <label>Female</label><input type="radio" name="war" value="FEMALE"><br><br>
+        <label for="">Message</label><br>
+        <textarea  name="w3review" rows="4" cols="50"></textarea>
+        </select> <br><br>
+        <button onclick="erroMessage()">
+            Submit
+        </button>
+    </form>
+    
+   
+    <script>
+        function erroMessage(){
+            window.alert("Thanks for Contact us. We repond to you soonest")
+        }
+    </script>
+    </section>
+</body>
+</html>
