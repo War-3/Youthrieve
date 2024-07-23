@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./images/Netflix.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Netflix</title>
+    <style>
+        
+        nav{
+            border: 2px solid green;
+            margin-bottom: 10px;
+            padding:2px;
+        }
+       
+           
+       
+        nav ul{
+             display: flex;
+            list-style: none;
+            justify-content: space-around;
+            width: 60%;
+            margin-left: 200px;
+        }
+        nav ul li{
+            align-content: center;
+            font-size: 20px;
+            font-weight: 600;
+           
+        }
+
+        section{
+            border: 2px solid green;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .div1{
+            width: 200px;
+            height:400px;
+            border:2px solid rebeccapurple;
+            flex:1;
+            margin-right: 15px;
+            padding: 5px;
+        }
+        .div2{
+            width: 450px;
+            height: 410px;
+            border: 2px solid rgb(214, 5, 92);
+            background-image: url(./Images/Netflix.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .inside1{
+            width: 835px;
+            height: 200px;
+            border: 2px solid rgb(197, 23, 174);
+            background-image: url(./Images/Netflix.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-bottom: 3px;
+            
+        
+        }
+        .inside2{
+            width: 835px;
+            height: 190px;
+            border: 2px solid rgb(218, 204, 11);
+            background-image: url(./Images/Netflix.jpg);
+            background-size:contain;
+            background-repeat: no-repeat;
+            margin-top: 3px;
+        
+            
+          
+        }
+        h1{
+            margin-left: 140px;
+        }
+        p{
+            margin-left: 140px;
+            padding-right: 20px;
+        }
+        .logo{
+            position:absolute;
+            top:13px;
+            left:15px;        
+        }
+        .button{
+            position: absolute;
+            top:30px;
+            right:24px;
+          
+        }
+        #submit{
+            width:450px; 
+            border: none; height: 25px; padding: 2px;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(218, 71, 52);
+        }
+        #submit:hover{
+            background-color: transparent;
+            color: rgb(236, 46, 12);
+        
+        }
+            
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <img src="./images/Netflix.jpg" alt="Netflix" width="30px";>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Blog</li>
+        </ul>
+        <div class="button">
+            <button style="border:none; font-size: 16px;">Login</button>
+            <button style="background-color: rgb(240, 158, 6); border: none;font-size: 16px; color:white">Sign Up</button>
+        </div>
+    </nav>
+    <section>
+        <div class="div1">
+            <div class="inside1">
+                <h1>Title 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos esse laborum reiciendis quos quisquam expedita consequatur, 
+                    in odit assumenda debitis molestiae odio provident iure sunt accusantium. Quibusdam, in laborum. Vero.</p>
+            </div>
+            <div class="inside2">
+                <h1>Title 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis esse consectetur commodi magni sequi odio. Deleniti molestias distinctio repellendus accusantium,
+                     aliquam suscipit est repellat inventore pariatur sunt hic molestiae.</p>
+            </div>
+        </div>
+        <div class="div2">
+            <h1 style="margin-left: 5px;">Lorem ipsum dolor sit amet.</h1>
+            <p style="margin-left: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur enim numquam dolorem, 
+                laborum ab eveniet non fuga omnis! Ipsum et assumenda quam saepe corporis non officiis quos atque a minus?</p>
+                <br>
+                <button id="submit">Submit</button>
+        </div>
+    </section>
+</body>
+</html>
