@@ -28,7 +28,7 @@ console.log(Boolean(statement5 =='Thanks for contacting us today.'));
 
 // 5 Null
 let myVar = null;
-let Debit1 = null;
-let Credit1 = null;
+let User1 = null;
+let CustomerName = null;
 let myCar = null;
 let myName = null;
