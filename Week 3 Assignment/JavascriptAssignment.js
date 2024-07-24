@@ -32,3 +32,11 @@ let User1 = null;
 let CustomerName = null;
 let myCar = null;
 let myName = null;
+
+// 5 undefined
+ var User1 
+ var User2 
+ var User3
+ var Name1 
+ var Name2 
+ 
